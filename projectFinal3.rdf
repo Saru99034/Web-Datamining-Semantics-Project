@@ -1,0 +1,1079 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:terms="http://purl.org/dc/terms/"
+    xmlns:schema1="https://schema.org/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76/"
+    xmlns:schema="http://schema.org/"
+    xmlns:untitled-ontology-76="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:j.0="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76/Restaurant#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#" > 
+  <rdf:Description rdf:about="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76/DeliveryCompany#FoodJet">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76#DeliveryCompany"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76#DeliveryService"/>
+    <schema:name>Food Jet</schema:name>
+    <rdf:type rdf:resource="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76#RestDelivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76/Restaurant/SpecialDay#NewYear">
+    <rdf:type rdf:resource="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76#Menu"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76#Offer"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76/Restaurant#SpecialDay"/>
+    <untitled-ontology-76:lastDate>"2024-01-08"</untitled-ontology-76:lastDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.org/KroKoop">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://schema.org/Organization"/>
+    <schema:addressCountry>fr</schema:addressCountry>
+    <schema:addressLocality>Nîmes</schema:addressLocality>
+    <schema:geoLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">43.836699</schema:geoLatitude>
+    <schema:geoLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.360054</schema:geoLongitude>
+    <schema:name>KroKoop</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A0">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76#hasPreference"/>
+    <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76#FoodProduct"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76#HasOpenHour">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76#Customer">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:equivalentClass rdf:nodeID="A0"/>
+    <rdfs:subClassOf>https://schema.org/Person</rdfs:subClassOf>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.org/Bikexpress">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://schema.org/Organization"/>
+    <schema:addressCountry>es</schema:addressCountry>
+    <schema:addressLocality>Getafe</schema:addressLocality>
+    <schema:geoLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.306812</schema:geoLatitude>
+    <schema:geoLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.732985</schema:geoLongitude>
+    <schema:name>Bikexpress</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76/SingleItemOffer#PizzaSpecialOffer">
+    <rdf:type rdf:resource="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76#Menu"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76#Offer"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76#SingleItemOffer"/>
+    <untitled-ontology-76:hasName>Pizza Special Offer</untitled-ontology-76:hasName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.org/No%20bad%20days">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://schema.org/Organization"/>
+    <schema:addressCountry>dk</schema:addressCountry>
+    <schema:addressLocality>Aarhus</schema:addressLocality>
+    <schema:geoLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">56.145375</schema:geoLatitude>
+    <schema:geoLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.204885</schema:geoLongitude>
+    <schema:name>No bad days</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.org/Hotline%20Couriers">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://schema.org/Organization"/>
+    <schema:addressCountry>au</schema:addressCountry>
+    <schema:addressLocality>Sydney</schema:addressLocality>
+    <schema:geoLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-33.8735865</schema:geoLatitude>
+    <schema:geoLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">151.2066947</schema:geoLongitude>
+    <schema:name>Hotline Couriers</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.org/Fast%20and%20Curious">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://schema.org/Organization"/>
+    <schema:addressCountry>fr</schema:addressCountry>
+    <schema:addressLocality>Le Havre</schema:addressLocality>
+    <schema:geoLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">49.492592</schema:geoLatitude>
+    <schema:geoLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.1065</schema:geoLongitude>
+    <schema:name>Fast and Curious</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.org/York%20Collective">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://schema.org/Organization"/>
+    <schema:addressCountry>gb</schema:addressCountry>
+    <schema:addressLocality>York</schema:addressLocality>
+    <schema:geoLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.9553945</schema:geoLatitude>
+    <schema:geoLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-1.0903567</schema:geoLongitude>
+    <schema:name>York Collective</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76#hasOffer">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.org/A2ROO">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://schema.org/Organization"/>
+    <schema:addressCountry>fr</schema:addressCountry>
+    <schema:addressLocality>Dijon</schema:addressLocality>
+    <schema:geoLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">47.322047</schema:geoLatitude>
+    <schema:geoLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.04148</schema:geoLongitude>
+    <schema:name>A2ROO</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.org/La%20Pajara">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://schema.org/Organization"/>
+    <schema:addressCountry>es</schema:addressCountry>
+    <schema:addressLocality>Madrid</schema:addressLocality>
+    <schema:geoLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.4381311</schema:geoLatitude>
+    <schema:geoLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.8196226</schema:geoLongitude>
+    <schema:name>La Pajara</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.org/Orléans%20Cycloposteurs">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://schema.org/Organization"/>
+    <schema:addressCountry>fr</schema:addressCountry>
+    <schema:addressLocality>Orléans</schema:addressLocality>
+    <schema:geoLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">47.9040718</schema:geoLatitude>
+    <schema:geoLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.8858347</schema:geoLongitude>
+    <schema:name>Orléans Cycloposteurs</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76#SingleItemOffer">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76#Offer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76#servesCuisine">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76/Customer#timePreference">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:subPropertyOf>https://schema.org/openingHours</rdfs:subPropertyOf>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76#Salad">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76#FoodProduct"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#subClassOf">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76#hasAge">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76#hasDeliveryService">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.org/Ziclo-P">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://schema.org/Organization"/>
+    <schema:addressCountry>es</schema:addressCountry>
+    <schema:addressLocality>Pamplona/Iruña</schema:addressLocality>
+    <schema:geoLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">42.82708</schema:geoLatitude>
+    <schema:geoLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-1.64647</schema:geoLongitude>
+    <schema:name>Ziclo-P</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.org/Zampate">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://schema.org/Organization"/>
+    <schema:addressCountry>es</schema:addressCountry>
+    <schema:addressLocality>Zaragoza</schema:addressLocality>
+    <schema:geoLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">41.650998</schema:geoLatitude>
+    <schema:geoLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-0.888742</schema:geoLongitude>
+    <schema:name>Zampate</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.org/Les%20Coursiers%20Rennais">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://schema.org/Organization"/>
+    <schema:addressCountry>fr</schema:addressCountry>
+    <schema:addressLocality>Rennes</schema:addressLocality>
+    <schema:geoLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">48.111778</schema:geoLatitude>
+    <schema:geoLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-1.68026</schema:geoLongitude>
+    <schema:name>Les Coursiers Rennais</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76/AsianRestaurant#TasteOfAsianRestaurant">
+    <rdf:type rdf:resource="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76#BestDeliveryMen"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76#AsianRestaurant"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76#Restaurant"/>
+    <schema:addressCountry>fr</schema:addressCountry>
+    <schema:addressLocality>Paris</schema:addressLocality>
+    <schema:name>Taste Of Asia Restaurant</schema:name>
+    <untitled-ontology-76:servesCuisine>Asian</untitled-ontology-76:servesCuisine>
+    <rdf:type rdf:resource="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76#RestDelivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76/VegetarianRestaurant#GreenEatsVegetarianRestaurant">
+    <rdf:type rdf:resource="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76#BestDeliveryMen"/>
+    <schema:name>Green Eats Vegetarian</schema:name>
+    <rdf:type rdf:resource="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76#RestDelivery"/>
+    <schema:addressLocality>Paris</schema:addressLocality>
+    <schema1:deliveryMethod rdf:resource="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76/DeliveryCompany#DoorDash"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76#Restaurant"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76#VegetarianRestaurant"/>
+    <schema:addressCountry>fr</schema:addressCountry>
+    <schema1:deliveryMethod rdf:resource="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76/DeliveryCompany#Delivericious"/>
+    <untitled-ontology-76:servesCuisine>Vegetarian</untitled-ontology-76:servesCuisine>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76/DeliveryCompany#FastDeliveryCompanyXYZ">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76#DeliveryCompany"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76#DeliveryService"/>
+    <untitled-ontology-76:hasName>Fast Delivery Company XYZ</untitled-ontology-76:hasName>
+    <rdf:type rdf:resource="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76#RestDelivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.org/Wings:%20ethical%20food%20delivery">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://schema.org/Organization"/>
+    <schema:addressCountry>gb</schema:addressCountry>
+    <schema:addressLocality>London</schema:addressLocality>
+    <schema:geoLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">51.564643</schema:geoLatitude>
+    <schema:geoLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-0.105872</schema:geoLongitude>
+    <schema:name>Wings: ethical food delivery</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.org/Robin%20Food">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://schema.org/Organization"/>
+    <schema:addressCountry>it</schema:addressCountry>
+    <schema:addressLocality>Firenze</schema:addressLocality>
+    <schema:geoLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">43.7752</schema:geoLatitude>
+    <schema:geoLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">11.254612</schema:geoLongitude>
+    <schema:name>Robin Food</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.org/La%20Cocotte">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://schema.org/Organization"/>
+    <schema:addressCountry>fr</schema:addressCountry>
+    <schema:addressLocality>Toulon</schema:addressLocality>
+    <schema:geoLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">43.125191</schema:geoLatitude>
+    <schema:geoLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.93104</schema:geoLongitude>
+    <schema:name>La Cocotte</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.org/ColisCyclette">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://schema.org/Organization"/>
+    <schema:addressCountry>fr</schema:addressCountry>
+    <schema:addressLocality>Carpentras</schema:addressLocality>
+    <schema:geoLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">44.0628406</schema:geoLatitude>
+    <schema:geoLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.9884039</schema:geoLongitude>
+    <schema:name>ColisCyclette</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76/Customer#DonaldTrump">
+    <rdf:type rdf:resource="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76#Human"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76#Customer"/>
+    <untitled-ontology-76:hasName>Donald Trump</untitled-ontology-76:hasName>
+    <untitled-ontology-76:locatedIn>United States</untitled-ontology-76:locatedIn>
+    <untitled-ontology-76:servesCuisine>American</untitled-ontology-76:servesCuisine>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.org/Libelubike">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://schema.org/Organization"/>
+    <schema:addressCountry>mx</schema:addressCountry>
+    <schema:addressLocality>Puerto de Veracruz</schema:addressLocality>
+    <schema:geoLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">19.1960638</schema:geoLatitude>
+    <schema:geoLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-96.144868</schema:geoLongitude>
+    <schema:name>Libelubike</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76#FoodProduct">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf>https://schema.org/Product</rdfs:subClassOf>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76#Menu">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.org/Huelva%20Vence">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://schema.org/Organization"/>
+    <schema:addressCountry>es</schema:addressCountry>
+    <schema:addressLocality>Huelva</schema:addressLocality>
+    <schema:geoLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">37.2621449</schema:geoLatitude>
+    <schema:geoLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-6.9453985</schema:geoLongitude>
+    <schema:name>Huelva Vence</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.org/Kooglof">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://schema.org/Organization"/>
+    <schema:addressCountry>fr</schema:addressCountry>
+    <schema:addressLocality>Strasbourg</schema:addressLocality>
+    <schema:geoLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">48.5833</schema:geoLatitude>
+    <schema:geoLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">7.75</schema:geoLongitude>
+    <schema:name>Kooglof</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.org/Feel%20à%20Vélo">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://schema.org/Organization"/>
+    <schema:addressCountry>fr</schema:addressCountry>
+    <schema:addressLocality>Lorient</schema:addressLocality>
+    <schema:geoLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">47.748252</schema:geoLatitude>
+    <schema:geoLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.370245</schema:geoLongitude>
+    <schema:name>Feel à Vélo</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://schema.org/Organization">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76/Customer#JohnDoe">
+    <rdf:type rdf:resource="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76#Human"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76#Customer"/>
+    <untitled-ontology-76:hasName>John Doe</untitled-ontology-76:hasName>
+    <untitled-ontology-76:locatedIn>Paris</untitled-ontology-76:locatedIn>
+    <untitled-ontology-76:servesCuisine>Italian</untitled-ontology-76:servesCuisine>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.org/Beefast">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://schema.org/Organization"/>
+    <schema:addressCountry>fr</schema:addressCountry>
+    <schema:addressLocality>Amiens</schema:addressLocality>
+    <schema:geoLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">49.894066</schema:geoLatitude>
+    <schema:geoLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.295753</schema:geoLongitude>
+    <schema:name>Beefast</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76/Burger#JuicyBurger">
+    <rdf:type rdf:resource="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76#Menu"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76#Burger"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76#FoodProduct"/>
+    <untitled-ontology-76:hasDeliveryService rdf:resource="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76/DeliveryCompany#FoodJet"/>
+    <untitled-ontology-76:hasOffer rdf:resource="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76/SingleItemOffer#PizzaSpecialOffer"/>
+    <untitled-ontology-76:hasRestaurant rdf:resource="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76/Restaurant#SriLankaResto"/>
+    <untitled-ontology-76:hasName>Juicy burger</untitled-ontology-76:hasName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76/ComboOffer#SuchiComboDeal">
+    <rdf:type rdf:resource="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76#Menu"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76#ComboOffer"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76#Offer"/>
+    <untitled-ontology-76:hasName>Suchi Combo Deal</untitled-ontology-76:hasName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.org/Breizh%20Vélo%20-%20Quimper">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://schema.org/Organization"/>
+    <schema:addressCountry>fr</schema:addressCountry>
+    <schema:addressLocality>Quimper</schema:addressLocality>
+    <schema:geoLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">47.995949</schema:geoLatitude>
+    <schema:geoLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-4.09992</schema:geoLongitude>
+    <schema:name>Breizh Vélo - Quimper</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.org/Bicientrega">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://schema.org/Organization"/>
+    <schema:addressCountry>mx</schema:addressCountry>
+    <schema:addressLocality>Ciudad de México - BiciEntrega</schema:addressLocality>
+    <schema:geoLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">19.434997</schema:geoLatitude>
+    <schema:geoLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-99.150816</schema:geoLongitude>
+    <schema:name>Bicientrega</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76/DeliveryCompany#DoorDash">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76#DeliveryCompany"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76#DeliveryService"/>
+    <schema:name>DoorDash</schema:name>
+    <rdf:type rdf:resource="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76#RestDelivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.org/Lille.bike">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://schema.org/Organization"/>
+    <schema:addressCountry>fr</schema:addressCountry>
+    <schema:addressLocality>Lille / Roubaix</schema:addressLocality>
+    <schema:geoLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">50.6311554</schema:geoLatitude>
+    <schema:geoLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.9771204</schema:geoLongitude>
+    <schema:name>Lille.bike</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.org/Les%20coursiers%20Metz">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://schema.org/Organization"/>
+    <schema:addressCountry>fr</schema:addressCountry>
+    <schema:addressLocality>Metz</schema:addressLocality>
+    <schema:geoLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">49.1172743</schema:geoLatitude>
+    <schema:geoLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">6.1749915</schema:geoLongitude>
+    <schema:name>Les coursiers Metz</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76#deliversTo">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.org/Chorlton%20Bike%20Deliveries">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://schema.org/Organization"/>
+    <schema:addressCountry>gb</schema:addressCountry>
+    <schema:addressLocality>Manchester</schema:addressLocality>
+    <schema:geoLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.4447788</schema:geoLatitude>
+    <schema:geoLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.2790018</schema:geoLongitude>
+    <schema:name>Chorlton Bike Deliveries</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.org/Les%20Coursiers%20Nantais">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://schema.org/Organization"/>
+    <schema:addressCountry>fr</schema:addressCountry>
+    <schema:addressLocality>Nantes - Les Coursiers Nantais</schema:addressLocality>
+    <schema:geoLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">47.204185</schema:geoLatitude>
+    <schema:geoLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-1.5484234</schema:geoLongitude>
+    <schema:name>Les Coursiers Nantais</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76#DeliveryCompany">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76#DeliveryService"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76/Sushi#FreshSushi">
+    <rdf:type rdf:resource="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76#Menu"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76#FoodProduct"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76#Sushi"/>
+    <untitled-ontology-76:hasName>Fresh Sushi</untitled-ontology-76:hasName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76#ItalianRestaurant">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76#Restaurant"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.org/Tours%20N%20Messengers">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://schema.org/Organization"/>
+    <schema:addressCountry>fr</schema:addressCountry>
+    <schema:addressLocality>Tours</schema:addressLocality>
+    <schema:geoLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">47.383333</schema:geoLatitude>
+    <schema:geoLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.683333</schema:geoLongitude>
+    <schema:name>Tours N Messengers</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.org/S!cklo">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://schema.org/Organization"/>
+    <schema:addressCountry>fr</schema:addressCountry>
+    <schema:addressLocality>Grenoble</schema:addressLocality>
+    <schema:geoLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">45.196241</schema:geoLatitude>
+    <schema:geoLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.730347</schema:geoLongitude>
+    <schema:name>S!cklo</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76#VegetarianRestaurant">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76#Restaurant"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.org/Shift%20Delivery%20Co-op">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://schema.org/Organization"/>
+    <schema:addressCountry>ca</schema:addressCountry>
+    <schema:addressLocality>Vancouver</schema:addressLocality>
+    <schema:geoLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">49.28273</schema:geoLatitude>
+    <schema:geoLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-123.120735</schema:geoLongitude>
+    <schema:name>Shift Delivery Co-op</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.org/FACTTIC">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://schema.org/Organization"/>
+    <schema:addressCountry>ar</schema:addressCountry>
+    <schema:addressLocality>Buenos Aires</schema:addressLocality>
+    <schema:geoLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-34.603683</schema:geoLatitude>
+    <schema:geoLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-58.381557</schema:geoLongitude>
+    <schema:name>FACTTIC</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/Person#YiruZHANG">
+    <rdf:type rdf:resource="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76#Human"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://schema.org/Person"/>
+    <rdf:type rdf:resource="https://schema.org/Thing"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76#Burger">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76#FoodProduct"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76/Restaurant#SriLankaResto">
+    <rdf:type rdf:resource="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76#BestDeliveryMen"/>
+    <untitled-ontology-76:HasClosingHour>AT 11 PM</untitled-ontology-76:HasClosingHour>
+    <rdf:type rdf:resource="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76#Restaurant"/>
+    <untitled-ontology-76:HasOpenHour>AT 12 AM</untitled-ontology-76:HasOpenHour>
+    <rdf:type rdf:resource="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76#RestDelivery"/>
+    <untitled-ontology-76:servesCuisine>Italian</untitled-ontology-76:servesCuisine>
+    <schema:addressCountry>Sri Lanka</schema:addressCountry>
+    <rdf:type rdf:resource="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76#AsianRestaurant"/>
+    <schema:addressLocality>Jaffna</schema:addressLocality>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <schema:name>Sri Lanka Resto</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.org/La%20Sàrria">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://schema.org/Organization"/>
+    <schema:addressCountry>es</schema:addressCountry>
+    <schema:addressLocality>Sabadell</schema:addressLocality>
+    <schema:geoLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">41.5477076</schema:geoLatitude>
+    <schema:geoLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.1079001</schema:geoLongitude>
+    <schema:name>La Sàrria</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.org/Botxoriders">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://schema.org/Organization"/>
+    <schema:addressCountry>es</schema:addressCountry>
+    <schema:addressLocality>Bilbao</schema:addressLocality>
+    <schema:geoLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">43.2627</schema:geoLatitude>
+    <schema:geoLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.9253</schema:geoLongitude>
+    <schema:name>Botxoriders</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76/DeliveryMan#LocalCourier">
+    <rdf:type rdf:resource="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76#Human"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76#BestDeliveryMen"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76#DeliveryMan"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76#DeliveryService"/>
+    <untitled-ontology-76:canDeliverIn>Paris</untitled-ontology-76:canDeliverIn>
+    <untitled-ontology-76:hasAge rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">35</untitled-ontology-76:hasAge>
+    <untitled-ontology-76:hasName>Local Courier</untitled-ontology-76:hasName>
+    <rdf:type rdf:resource="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76#RestDelivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/Person#SarujanDENSON">
+    <rdf:type rdf:resource="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76#Human"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://schema.org/Person"/>
+    <rdf:type rdf:resource="https://schema.org/Thing"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.org/TIG%20Bicimensajería">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://schema.org/Organization"/>
+    <schema:addressCountry>mx</schema:addressCountry>
+    <schema:addressLocality>Ciudad de México - TIG</schema:addressLocality>
+    <schema:geoLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">19.432608</schema:geoLatitude>
+    <schema:geoLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-99.133209</schema:geoLongitude>
+    <schema:name>TIG Bicimensajería</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.org/Les%20Coursiers%20Brestois">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://schema.org/Organization"/>
+    <schema:addressCountry>fr</schema:addressCountry>
+    <schema:addressLocality>Brest</schema:addressLocality>
+    <schema:geoLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">48.390392</schema:geoLatitude>
+    <schema:geoLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-4.486076</schema:geoLongitude>
+    <schema:name>Les Coursiers Brestois</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.org/Velo">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://schema.org/Organization"/>
+    <schema:addressCountry>es</schema:addressCountry>
+    <schema:addressLocality>Sevilla</schema:addressLocality>
+    <schema:geoLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">37.3900992</schema:geoLatitude>
+    <schema:geoLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-5.9862637</schema:geoLongitude>
+    <schema:name>Velo</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.org/Les%20Coursiers%20Stéphanois">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://schema.org/Organization"/>
+    <schema:addressCountry>fr</schema:addressCountry>
+    <schema:addressLocality>Saint-Étienne</schema:addressLocality>
+    <schema:geoLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">45.4368055</schema:geoLatitude>
+    <schema:geoLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.3866217</schema:geoLongitude>
+    <schema:name>Les Coursiers Stéphanois</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76/Customer#EmmanuelMacron">
+    <rdf:type rdf:resource="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76#Human"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76#Customer"/>
+    <untitled-ontology-76:hasName>Emmanuel Macron</untitled-ontology-76:hasName>
+    <untitled-ontology-76:locatedIn>Paris</untitled-ontology-76:locatedIn>
+    <untitled-ontology-76:servesCuisine>French</untitled-ontology-76:servesCuisine>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76#HasClosingHour">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.org/CoinCide">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://schema.org/Organization"/>
+    <schema:addressCountry>fr</schema:addressCountry>
+    <schema:addressLocality>Saint-Denis</schema:addressLocality>
+    <schema:geoLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">48.9267902</schema:geoLatitude>
+    <schema:geoLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.330664</schema:geoLongitude>
+    <schema:name>CoinCide</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.org/CROW%20Collective">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://schema.org/Organization"/>
+    <schema:addressCountry>de</schema:addressCountry>
+    <schema:addressLocality>Berlin</schema:addressLocality>
+    <schema:geoLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">52.500314</schema:geoLatitude>
+    <schema:geoLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">13.398481</schema:geoLongitude>
+    <schema:name>CROW Collective</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://schema.org/geoLongitude">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://schema.org/Organization"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#subPropertyOf">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.org/Les%20Cyclopes">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://schema.org/Organization"/>
+    <schema:addressCountry>fr</schema:addressCountry>
+    <schema:addressLocality>Epinay</schema:addressLocality>
+    <schema:geoLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">48.950001</schema:geoLatitude>
+    <schema:geoLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.30833</schema:geoLongitude>
+    <schema:name>Les Cyclopes</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76#hasName">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.org/Molenbike">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://schema.org/Organization"/>
+    <schema:addressCountry>be</schema:addressCountry>
+    <schema:addressLocality>Molenbeek, Brussels</schema:addressLocality>
+    <schema:geoLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">50.8576808</schema:geoLatitude>
+    <schema:geoLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.2982454</schema:geoLongitude>
+    <schema:name>Molenbike</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76#locatedIn">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A1">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76#deliversTo"/>
+    <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76#Restaurant"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.org/La%20roue%20libre">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://schema.org/Organization"/>
+    <schema:addressCountry>ca</schema:addressCountry>
+    <schema:addressLocality>Montréal</schema:addressLocality>
+    <schema:geoLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">45.50906</schema:geoLatitude>
+    <schema:geoLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-73.55336</schema:geoLongitude>
+    <schema:name>La roue libre</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76#DeliveryMan">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76#DeliveryService"/>
+    <rdfs:subClassOf>https://schema.org/Person</rdfs:subClassOf>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.org/Tricargo">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://schema.org/Organization"/>
+    <schema:addressCountry>de</schema:addressCountry>
+    <schema:addressLocality>Hambourg</schema:addressLocality>
+    <schema:geoLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.5586526</schema:geoLatitude>
+    <schema:geoLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">9.6476381</schema:geoLongitude>
+    <schema:name>Tricargo</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76#Sushi">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76#FoodProduct"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.org/Cat-Kurierkollektiv">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://schema.org/Organization"/>
+    <schema:addressCountry>de</schema:addressCountry>
+    <schema:addressLocality>Halle</schema:addressLocality>
+    <schema:geoLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">51.47098707450851</schema:geoLatitude>
+    <schema:geoLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">11.963177613669085</schema:geoLongitude>
+    <schema:name>Cat-Kurierkollektiv</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.org/Envici">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://schema.org/Organization"/>
+    <schema:addressCountry>mx</schema:addressCountry>
+    <schema:addressLocality>Puebla</schema:addressLocality>
+    <schema:geoLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">19.04368</schema:geoLatitude>
+    <schema:geoLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-98.199043</schema:geoLongitude>
+    <schema:name>Envici</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.org/Les%20Coursiers%20Nancéiens">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://schema.org/Organization"/>
+    <schema:addressCountry>fr</schema:addressCountry>
+    <schema:addressLocality>Nancy - Les Coursiers Nancéiens</schema:addressLocality>
+    <schema:geoLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">48.6885</schema:geoLatitude>
+    <schema:geoLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">6.1727</schema:geoLongitude>
+    <schema:name>Les Coursiers Nancéiens</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76/Pizza#DeliciousPizza">
+    <rdf:type rdf:resource="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76#Menu"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76#FoodProduct"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76#Pizza"/>
+    <untitled-ontology-76:hasName>Delicious Pizza</untitled-ontology-76:hasName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.org/COCO%20Collectif%20de%20Coursiers%20Orléanais%20">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://schema.org/Organization"/>
+    <schema:addressCountry>fr</schema:addressCountry>
+    <schema:addressLocality>Orléans</schema:addressLocality>
+    <schema:geoLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">47.9000569</schema:geoLatitude>
+    <schema:geoLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.9061124</schema:geoLongitude>
+    <schema:name>COCO Collectif de Coursiers Orléanais </schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <owl:imports rdf:resource="https://schema.org/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76/DeliveryCompany#Delivericious">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76#DeliveryCompany"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76#DeliveryService"/>
+    <schema:name>Delivericious</schema:name>
+    <rdf:type rdf:resource="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76#RestDelivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.org/Biclooo">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://schema.org/Organization"/>
+    <schema:addressCountry>fr</schema:addressCountry>
+    <schema:addressLocality>Rodez</schema:addressLocality>
+    <schema:geoLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">44.352833</schema:geoLatitude>
+    <schema:geoLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.562013</schema:geoLongitude>
+    <schema:name>Biclooo</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A2">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76#hasOffer"/>
+    <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76#Offer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76#Restaurant">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:equivalentClass rdf:nodeID="A2"/>
+    <rdfs:subClassOf>https://schema.org/Restaurant</rdfs:subClassOf>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76#hasRestaurant">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76#DeliveryService">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:equivalentClass rdf:nodeID="A1"/>
+    <rdfs:subClassOf>https://schema.org/DeliveryMethod</rdfs:subClassOf>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.org/Por%20La%20Chita">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://schema.org/Organization"/>
+    <schema:addressCountry>cl</schema:addressCountry>
+    <schema:addressLocality>Concepción</schema:addressLocality>
+    <schema:geoLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-36.8234934</schema:geoLatitude>
+    <schema:geoLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-73.046342</schema:geoLongitude>
+    <schema:name>Por La Chita</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/Person#MartinPUJOL">
+    <rdf:type rdf:resource="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76#Human"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://schema.org/Person"/>
+    <rdf:type rdf:resource="https://schema.org/Thing"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76#lastDate">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.org/Toutenvélo%20Grenoble">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://schema.org/Organization"/>
+    <schema:addressCountry>fr</schema:addressCountry>
+    <schema:addressLocality>Grenoble</schema:addressLocality>
+    <schema:geoLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">45.1951843</schema:geoLatitude>
+    <schema:geoLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.711916</schema:geoLongitude>
+    <schema:name>Toutenvélo Grenoble</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.org/Naofood">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://schema.org/Organization"/>
+    <schema:addressCountry>fr</schema:addressCountry>
+    <schema:addressLocality>Nantes - Naofood</schema:addressLocality>
+    <schema:geoLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">47.206472</schema:geoLatitude>
+    <schema:geoLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-1.564297</schema:geoLongitude>
+    <schema:name>Naofood</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76/DeliveryMan#Vegeta">
+    <rdf:type rdf:resource="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76#Human"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76#BestDeliveryMen"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76#DeliveryMan"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76#DeliveryService"/>
+    <schema:addressLocality>Tokyo</schema:addressLocality>
+    <untitled-ontology-76:canDeliverIn rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5</untitled-ontology-76:canDeliverIn>
+    <untitled-ontology-76:hasAge rdf:datatype="http://www.w3.org/2001/XMLSchema#int">52</untitled-ontology-76:hasAge>
+    <untitled-ontology-76:hasName>Vegeta</untitled-ontology-76:hasName>
+    <rdf:type rdf:resource="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76#RestDelivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76#Pizza">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76#FoodProduct"/>
+    <owl:disjointWith rdf:resource="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76#Sushi"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://schema.org/geoLatitude">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://schema.org/Organization"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.org/Belo%20Livraison">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://schema.org/Organization"/>
+    <schema:addressCountry>fr</schema:addressCountry>
+    <schema:addressLocality>Concarneau</schema:addressLocality>
+    <schema:geoLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">47.866669</schema:geoLatitude>
+    <schema:geoLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.91667</schema:geoLongitude>
+    <schema:name>Belo Livraison</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76#ComboOffer">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76#Offer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76#canDeliverIn">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76#AsianRestaurant">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76#Restaurant"/>
+    <owl:disjointWith rdf:resource="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76#ItalianRestaurant"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.org/Colibri">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://schema.org/Organization"/>
+    <schema:addressCountry>it</schema:addressCountry>
+    <schema:addressLocality>Napoli</schema:addressLocality>
+    <schema:geoLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.839981</schema:geoLatitude>
+    <schema:geoLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">14.25254</schema:geoLongitude>
+    <schema:name>Colibri</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76#Human">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.org/TLOK">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://schema.org/Organization"/>
+    <schema:addressCountry>mx</schema:addressCountry>
+    <schema:addressLocality>Ciudad de México - Tlok</schema:addressLocality>
+    <schema:geoLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">19.419791</schema:geoLatitude>
+    <schema:geoLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-99.111668</schema:geoLongitude>
+    <schema:name>TLOK</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.org/Dring">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://schema.org/Organization"/>
+    <schema:addressCountry>fr</schema:addressCountry>
+    <schema:addressLocality>Châtillon</schema:addressLocality>
+    <schema:geoLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">48.799858</schema:geoLatitude>
+    <schema:geoLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.28574</schema:geoLongitude>
+    <schema:name>Dring</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.org/Toutenvélo%20Marseille">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://schema.org/Organization"/>
+    <schema:addressCountry>fr</schema:addressCountry>
+    <schema:addressLocality>Marseille</schema:addressLocality>
+    <schema:geoLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">43.296482</schema:geoLatitude>
+    <schema:geoLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.36978</schema:geoLongitude>
+    <schema:name>Toutenvélo Marseille</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.org/RAYON9">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://schema.org/Organization"/>
+    <schema:addressCountry>be</schema:addressCountry>
+    <schema:addressLocality>Liège</schema:addressLocality>
+    <schema:geoLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">50.624728</schema:geoLatitude>
+    <schema:geoLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.5290501</schema:geoLongitude>
+    <schema:name>RAYON9</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A3">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76#offersFoodProduct"/>
+    <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76#FoodProduct"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76#offersFoodProduct">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.org/Mensakas">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://schema.org/Organization"/>
+    <schema:addressCountry>es</schema:addressCountry>
+    <schema:addressLocality>Barcelona</schema:addressLocality>
+    <schema:geoLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">41.385063</schema:geoLatitude>
+    <schema:geoLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.173404</schema:geoLongitude>
+    <schema:name>Mensakas</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76/DeliveryMan#MisterSatan">
+    <rdf:type rdf:resource="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76#Human"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76#BestDeliveryMen"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76#DeliveryMan"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76#DeliveryService"/>
+    <schema:addressLocality>Lyon</schema:addressLocality>
+    <untitled-ontology-76:canDeliverIn rdf:datatype="http://www.w3.org/2001/XMLSchema#int">14</untitled-ontology-76:canDeliverIn>
+    <untitled-ontology-76:hasAge rdf:datatype="http://www.w3.org/2001/XMLSchema#int">60</untitled-ontology-76:hasAge>
+    <untitled-ontology-76:hasName>Mister Satan</untitled-ontology-76:hasName>
+    <rdf:type rdf:resource="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76#RestDelivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.org/Les%20Coursiers%20Dinannais">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://schema.org/Organization"/>
+    <schema:addressCountry>fr</schema:addressCountry>
+    <schema:addressLocality>Dinan</schema:addressLocality>
+    <schema:geoLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">48.454021</schema:geoLatitude>
+    <schema:geoLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.04615</schema:geoLongitude>
+    <schema:name>Les Coursiers Dinannais</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.org/Les%20Coursiers%20Niortais">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://schema.org/Organization"/>
+    <schema:addressCountry>fr</schema:addressCountry>
+    <schema:addressLocality>Niort</schema:addressLocality>
+    <schema:geoLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">46.32386</schema:geoLatitude>
+    <schema:geoLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-0.45758</schema:geoLongitude>
+    <schema:name>Les Coursiers Niortais</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.org/CYCLOME">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://schema.org/Organization"/>
+    <schema:addressCountry>fr</schema:addressCountry>
+    <schema:addressLocality>Clermont-Ferrand</schema:addressLocality>
+    <schema:geoLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">45.77721</schema:geoLatitude>
+    <schema:geoLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.08252</schema:geoLongitude>
+    <schema:name>CYCLOME</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76/Salad#HealthySalad">
+    <rdf:type rdf:resource="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76#Menu"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76#FoodProduct"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76#Salad"/>
+    <untitled-ontology-76:hasName>Healthy Salad</untitled-ontology-76:hasName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.org/Eraman%20Repartos%20Gasteiz">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://schema.org/Organization"/>
+    <schema:addressCountry>es</schema:addressCountry>
+    <schema:addressLocality>Vitoria-Gasteiz</schema:addressLocality>
+    <schema:geoLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">42.846859</schema:geoLatitude>
+    <schema:geoLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.67159</schema:geoLongitude>
+    <schema:name>Eraman Repartos Gasteiz</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://schema.org/addressCountry">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://schema.org/Organization"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://schema.org/addressLocality">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://schema.org/Organization"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76/Restaurant#SpecialDay">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76#Offer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.org/Two%20Wheel%20Collective">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://schema.org/Organization"/>
+    <schema:addressCountry>mx</schema:addressCountry>
+    <schema:addressLocality>Ciudad de México - TWC</schema:addressLocality>
+    <schema:geoLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">19.43268</schema:geoLatitude>
+    <schema:geoLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-99.13421</schema:geoLongitude>
+    <schema:name>Two Wheel Collective</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76#BestDeliveryMen">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.org/Les%20Coursiers%20Montpelliérains">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://schema.org/Organization"/>
+    <schema:addressCountry>fr</schema:addressCountry>
+    <schema:addressLocality>Montpellier</schema:addressLocality>
+    <schema:geoLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">43.6100006</schema:geoLatitude>
+    <schema:geoLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.8041213</schema:geoLongitude>
+    <schema:name>Les Coursiers Montpelliérains</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76/Customer#locationPreference">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:subPropertyOf>https://schema.org/location</rdfs:subPropertyOf>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76/ItalianRestaurant#AuthenticItalianRestaurant">
+    <rdf:type rdf:resource="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76#BestDeliveryMen"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76#ItalianRestaurant"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76#Restaurant"/>
+    <schema:addressCountry>fr</schema:addressCountry>
+    <schema:addressLocality>Paris</schema:addressLocality>
+    <schema:name>Authentic Italian Restaurant</schema:name>
+    <untitled-ontology-76:servesCuisine>Italian</untitled-ontology-76:servesCuisine>
+    <rdf:type rdf:resource="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76#RestDelivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.org/Les%20Coliporteurs%20Nazairiens">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://schema.org/Organization"/>
+    <schema:addressCountry>fr</schema:addressCountry>
+    <schema:addressLocality>Saint Nazaire</schema:addressLocality>
+    <schema:geoLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">47.2734979</schema:geoLatitude>
+    <schema:geoLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.213848</schema:geoLongitude>
+    <schema:name>Les Coliporteurs Nazairiens</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.org/Narvélos">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://schema.org/Organization"/>
+    <schema:addressCountry>fr</schema:addressCountry>
+    <schema:addressLocality>Montreuil</schema:addressLocality>
+    <schema:geoLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">48.858311</schema:geoLatitude>
+    <schema:geoLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.4369</schema:geoLongitude>
+    <schema:name>Narvélos</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76/Customer#priceRangePreference">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:subPropertyOf>https://schema.org/priceRange</rdfs:subPropertyOf>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.org/Samo">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://schema.org/Organization"/>
+    <schema:addressCountry>fr</schema:addressCountry>
+    <schema:addressLocality>Saint-Maur-des-Fossés</schema:addressLocality>
+    <schema:geoLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">48.803678</schema:geoLatitude>
+    <schema:geoLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.4853294</schema:geoLongitude>
+    <schema:name>Samo</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.org/CoopVeliv">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://schema.org/Organization"/>
+    <schema:addressCountry>fr</schema:addressCountry>
+    <schema:addressLocality>Lyon</schema:addressLocality>
+    <schema:geoLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">45.7619177</schema:geoLatitude>
+    <schema:geoLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.8362647</schema:geoLongitude>
+    <schema:name>CoopVeliv</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.org/SIRApps%20Unión%20Mexicana%20de%20Bicimensajeros%20por%20Aplicación">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://schema.org/Organization"/>
+    <schema:addressCountry>mx</schema:addressCountry>
+    <schema:addressLocality>Ciudad de México - SIRApps</schema:addressLocality>
+    <schema:geoLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">19.43268</schema:geoLatitude>
+    <schema:geoLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-99.13421</schema:geoLongitude>
+    <schema:name>SIRApps Unión Mexicana de Bicimensajeros por Aplicación</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76#Offer">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:equivalentClass rdf:nodeID="A3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76/DeliveryMan#SonGoku">
+    <rdf:type rdf:resource="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76#BestDeliveryMen"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76#Human"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76#DeliveryMan"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76#DeliveryService"/>
+    <schema:addressLocality>Hong Kong</schema:addressLocality>
+    <untitled-ontology-76:canDeliverIn rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</untitled-ontology-76:canDeliverIn>
+    <untitled-ontology-76:hasAge rdf:datatype="http://www.w3.org/2001/XMLSchema#int">45</untitled-ontology-76:hasAge>
+    <untitled-ontology-76:hasName>Son Goku</untitled-ontology-76:hasName>
+    <rdf:type rdf:resource="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76#RestDelivery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76/Customer#foodPreference">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:subPropertyOf>https://schema.org/servesCuisine</rdfs:subPropertyOf>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.org/Les%20Coursiers%20Bordelais">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://schema.org/Organization"/>
+    <schema:addressCountry>fr</schema:addressCountry>
+    <schema:addressLocality>Bordeaux</schema:addressLocality>
+    <schema:geoLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">44.8638282</schema:geoLatitude>
+    <schema:geoLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-0.6561812</schema:geoLongitude>
+    <schema:name>Les Coursiers Bordelais</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://schema.org/name">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://schema.org/Organization"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.org/Hull%20Delivery%20Coop">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://schema.org/Organization"/>
+    <schema:addressCountry>gb</schema:addressCountry>
+    <schema:addressLocality>Hull</schema:addressLocality>
+    <schema:geoLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.7675181</schema:geoLatitude>
+    <schema:geoLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-0.3319922</schema:geoLongitude>
+    <schema:name>Hull Delivery Coop</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76#hasPreference">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.org/Khora">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://schema.org/Organization"/>
+    <schema:addressCountry>de</schema:addressCountry>
+    <schema:addressLocality>Berlin</schema:addressLocality>
+    <schema:geoLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">52.520007</schema:geoLatitude>
+    <schema:geoLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">13.404954</schema:geoLongitude>
+    <schema:name>Khora</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/33768/ontologies/2024/2/untitled-ontology-76#RestDelivery">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+</rdf:RDF>
